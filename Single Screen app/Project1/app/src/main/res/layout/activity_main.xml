@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0fff0"
+        android:orientation="vertical"
+        tools:context="com.example.diksh.project1.Main">
+
+        <ImageView
+            android:id="@+id/flour"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/flour" />
+
+        <ImageView
+            android:id="@+id/owner"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/flour"
+            android:src="@drawable/owner" />
+
+        <TextView
+            android:id="@+id/mill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flour"
+            android:layout_toRightOf="@id/owner"
+            android:paddingRight="16dp"
+            android:text="Sharma Flour Mill"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mill"
+            android:layout_toRightOf="@id/owner"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:text="owned by"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/by"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/owner"
+            android:text="DIKSHIT SHARMA"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/owner"
+            android:text="deals in flour products"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/owner"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/add1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/owner"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/location"
+            android:text="Chandigarh-Chintapurni-Dharamshala Rd, Punjab 140116"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/location"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/add2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add1"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/location"
+            android:text="From 9:00am till 8:00pm(*closed on holidays)  :)"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add2"
+            android:layout_margin="10dp"
+            android:text="It`s a fixed price shop;no bargain"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:fontFamily="cursive"
+            android:text="CONTACT US @ 8427048440"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
