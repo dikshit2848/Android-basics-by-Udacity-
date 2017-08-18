@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.gktester.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="let's check your gk"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit1_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="WRITE YOUR NAME HERE"
+            android:inputType="text|textCapWords" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q1. Which of the following is not an input device ?"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel1_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mouse" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel1_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light Pen" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel1_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keyboard" />
+
+            <RadioButton
+                android:id="@+id/sol4_rel1_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol4_rel1"
+                android:text="VDU" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q2. The term 'Pentium' is related to -"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel2_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DVD" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel2_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harddisk" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel2_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol3_rel2"
+                android:text="microprocessor" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mouse" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q3. Which of the following is an example of non-volatile memory?"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel3_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cache memory" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel3_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAM" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel3_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol3_rel3"
+                android:text="ROM" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q4. The first mechanical computer designed by Charles Babbage was called -"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel4_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abacus" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel4_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol2_rel4"
+                android:text="Analytical Engine" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel4_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculator" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Processors" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q5. Microsoft Office does not include -"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel5_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol1_rel5"
+                android:text="Android" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel5_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excel" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel5_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powerpoint" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="word" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q6. Assembly language is -"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sol1_rel6_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Machine language" />
+
+            <RadioButton
+                android:id="@+id/sol2_rel6_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High-level programming language" />
+
+            <RadioButton
+                android:id="@+id/sol3_rel6_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sol3_rel6"
+                android:text=" Alow-level programming language" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language for assembling computers" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q7. Which of the following is a hardware and not a software?"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/sol1_rel7_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sol1_rel7"
+            android:text="Printer Driver" />
+
+        <CheckBox
+            android:id="@+id/sol2_rel7_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sol2_rel7"
+            android:text="Operating system" />
+
+        <CheckBox
+            android:id="@+id/sol3_rel7_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sol3_rel7"
+            android:text="CPU" />
+
+        <CheckBox
+            android:id="@+id/sol4_rel7_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sol4_rel7"
+            android:text="Printer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Q8. What is the full form of CPU:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit2_gk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Give your answer here"
+            android:inputType="text|textCapWords" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:onClick="submit"
+            android:text="submit"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_gk"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="image_gk"
+                android:src="@drawable/brain" />
+
+            <TextView
+                android:id="@+id/text_gk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/image_gk"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
