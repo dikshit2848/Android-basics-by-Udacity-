@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="category_historic">#64b5F6</color>
+
+    <color name="category_famous">#379237</color>
+
+    <color name="category_parks">#FD8E09</color>
+
+    <color name="category_schools">#00796B</color>
+
+    <color name="text_color">#000000</color>
+
+    <color name="primary_color">#4A312A</color>
+
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <color name="tan_background">#FFF7DA</color>
+</resources>

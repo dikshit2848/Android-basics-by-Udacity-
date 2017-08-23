@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tourism</string>
+    <string name="app_schools">Schools</string>
+    <string name="app_parks">Parks</string>
+    <string name="app_famous">Famous</string>
+    <string name="app_historic">Historic</string>
+    <string name="guru">GURU</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="historic_one">Gurudwara Takht Sri Kesgarh Sahib</string>
+    <string name="historic_two">Gurudwara Sisganj Sahib</string>
+    <string name="historic_three">Gurdwara Guru Ka Mahal</string>
+    <string name="historic_four">Gurudwara Bhora Sahib</string>
+    <string name="historic_five">Gurudwara Thara Sahib</string>
+    <string name="historic_six">Gurudwara Akal Bunga Sahib</string>
+    <string name="historic_seven">Gurudwara Damdama Sahib</string>
+    <string name="historic_eight">Gurudwara Dumalgarh Sahib</string>
+    <string name="historic_nine">Gurdwara Shaeedhi Bagh</string>
+    <string name="historic_ten">Gurdwara Mata Jit Kaur</string>
+    <string name="historic_eleven">Gurudwara Sri Hargobindsar Sahib</string>
+    <string name="school_one">Sri Dasmesh Academy</string>
+    <string name="school_two">Mount Carmel Public School</string>
+    <string name="school_three">Bhai Nand Lal Public School</string>
+    <string name="famous_one">Virasat-E-Khalsa</string>
+    <string name="famous_two">Chanderpal`s Burger</string>
+    <string name="famous_three">Sharma Flour Mills</string>
+    <string name="parks_one">panj pyara park</string>
+    <string name="parks_two">Kisan Haveli</string>
+    <string name="parks_three">Local park</string>
+</resources>
