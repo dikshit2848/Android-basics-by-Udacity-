@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Book Lister</string>
+    <string name="begin_app">BOOK LISTER APP</string>
+    <string name="ques_app">Enter the information about the Book which you want to Search</string>
+    <string name="hint">Type info about the Book here</string>
+    <string name="go_button">GO</string>
+    <string name="book">prints out book name</string>
+    <string name="author">prints out author name</string>
+    <string name="no_internet"> Please Check your Internet Connection </string>
+    <string name="no_book"> No Book Found </string>
+</resources>
